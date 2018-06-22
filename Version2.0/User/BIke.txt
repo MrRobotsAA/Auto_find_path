@@ -1,0 +1,15 @@
+class BIKE
+{
+public:
+    int  n;
+    int num[maxn];//每个点现存的自行车数目
+    int num_pre[maxn];//每个点之前的自行车数目
+    int num_change[maxn];//每个点
+    double num_by[maxn];//每个点的流量值
+    int num_shift[maxn];//每个点要移动的车辆数
+    int total_num;//总共的自行车数目
+    int date;//模拟天数
+    double Dx_pre[maxn];//记录前一次的方差
+    int state;//修改参数时辅助的状态码
+    int Fa,Fb;
+} Bike;
